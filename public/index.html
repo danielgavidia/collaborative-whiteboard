@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Collaborative Whiteboard</title>
+    </head>
+    <body>
+        <h1>Collaborative Whiteboard</h1>
+        <canvas id="whiteboard" width="800" height="800"></canvas>
+        <div>
+            <button>Clear Whiteboard</button>
+            <input type="color" id="colorPicker" value="#000000" />
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/main.js"></script>
+    </body>
+</html>
